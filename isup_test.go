@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 )
-
+// add table tests
 func isTagged(url string) bool {
 	r, err := http.Head(url)
 
